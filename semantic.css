@@ -1,0 +1,106 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8ff;
+  color: #333;
+}
+
+.kepala-halaman {
+  background-color: #91a39c;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.judul-sekolah {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.navigasi ul {
+  list-style: none;
+}
+
+.navigasi ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navigasi ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.isi-utama {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.bagian-sambutan {
+  background-color: #e6f0ff;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.bagian-sambutan h2 {
+  color: #91a39c;
+  margin-bottom: 10px;
+}
+
+.bagian-program {
+  margin-bottom: 40px;
+}
+
+.bagian-program h2 {
+  color: #91a39c;
+  margin-bottom: 20px;
+}
+
+.daftar-program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.program {
+  background-color: white;
+  border: 1px solid #cfd8e0;
+  border-radius: 8px;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.program h3 {
+  color: #91a39c;
+  margin-bottom: 10px;
+}
+
+/* BAGIAN INFORMASI */
+.bagian-informasi {
+  background-color: #e6f0ff;
+  padding: 25px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto 40px auto;
+}
+
+/* FOOTER */
+.kaki-halaman {
+  background-color: #91a39c;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+}

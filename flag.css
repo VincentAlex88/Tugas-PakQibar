@@ -1,0 +1,105 @@
+h2 {
+  margin-top: 20px;
+}
+
+.wadah-bendera {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 10px; 
+  margin-top: 30px;
+}
+
+.bendera {
+  width: 300px;   
+  height: 180px;  
+  border: 2px solid #333;
+  background: white;
+  position: relative;
+}
+
+
+.georgia {
+  background: white;
+}
+
+
+.garis-utama.vertikal {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 20%;
+  height: 100%;
+  background: red;
+}
+
+.garis-utama.horizontal {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 20%;
+  background: red;
+}
+
+.salib-kecil {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+}
+
+.salib-kecil::before,
+.salib-kecil::after {
+  content: "";
+  position: absolute;
+  background: red;
+}
+
+.salib-kecil::before {
+  width: 10px;
+  height: 35px;
+  left: 12px;
+}
+
+.salib-kecil::after {
+  width: 35px;
+  height: 10px;
+  top: 12px;
+}
+
+
+.kiri-atas { top: 20px; left: 20px; }
+.kanan-atas { top: 20px; right: 20px; }
+.kiri-bawah { bottom: 20px; left: 20px; }
+.kanan-bawah { bottom: 20px; right: 20px; }
+
+.prancis {
+  display: flex;
+}
+
+.prancis .warna {
+  flex: 1;
+}
+
+.prancis .biru { background: #0055A4; }
+.prancis .putih { background: white; }
+.prancis .merah { background: #EF4135; }
+
+.indonesia .lapisan {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  left: 0;
+}
+
+.indonesia .merah {
+  top: 0;
+  background: #ff0000;
+}
+
+.indonesia .putih {
+  bottom: 0;
+  background: #ffffff;
+}

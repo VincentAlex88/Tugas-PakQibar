@@ -1,0 +1,41 @@
+.kakek {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+/* Rubic 3 x 3 */
+/* baris pertama = merah */
+/* baris kedua = biru */
+/* baris ketiga = hijau */
+
+/* Jika menggunakan displayflex */
+/* otomatis akan berbentuk row */
+/* Untuk merubah alur menggunakan: */
+/* Flex-direction : ???? */
+/* div.bapak3>.anak*3 */
+
+.bapak {
+  flex: 1;
+  display: flex;
+}
+
+.anak {
+  flex: 1;
+  margin: 1;
+  display: inline-block;
+}
+
+.baris1 .anak {
+  background: red;
+}
+
+.baris2 .anak {
+  background: rgb(0, 101, 155);
+}
+
+.baris3 .anak {
+  background: rgba(0, 255, 38, 0.5);
+}
